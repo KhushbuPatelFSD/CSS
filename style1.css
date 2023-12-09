@@ -1,0 +1,53 @@
+body {
+    margin: 100px ;
+  }
+  
+  .parent {
+    width: 500px;
+    border: 1px solid red;
+    margin: auto;
+    text-align: center;
+  }
+  
+  
+  .c1 {
+    background-color: powderblue;
+       position: absolute;
+       top: 4px;
+       left:10px;
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+  }
+  
+  .c2 {
+    background-color: royalblue;
+    border-radius: 10%;  
+      position: relative;
+      left:50px;
+      top:50px;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+  }
+  
+  .c3 {
+    background-color: sienna;
+    border-radius: 10%;
+        position:static; 
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+  }
+  
+  .c4 {
+    background-color: slateblue;
+    border-radius: 10%;
+       top: 50px;
+       left: 0;
+       position: fixed;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+  }
