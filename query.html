@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Effect</title>
+    <style>
+        body {
+            background-color: pink;
+            transition: background-color 0.3s ease;
+        }
+        h1 {
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="hoverElement">Hover over me!</h1>
+
+    <script>
+        const h1Element = document.getElementById('hoverElement');
+        
+        h1Element.addEventListener('mouseenter', () => {
+            document.body.style.backgroundColor = 'lightblue';
+        });
+
+        h1Element.addEventListener('mouseleave', () => {
+            document.body.style.backgroundColor = 'pink';
+        });
+    </script>
+</body>
+</html>
